@@ -1,0 +1,247 @@
+# 500083 Lab Book
+
+## Week 1 - Lab A (28/01/26)
+
+### Q1. Hello World
+
+**Question:**
+
+Locate the Solution Explorer within Visual Studio and select the HelloWorld project.
+Right click on this project and select Build. This should compile and link the project.
+Now run the HelloWorld program.
+Change between Debug and Release mode. Compile again and rerun the program.
+
+**Solution:**
+
+```c++
+#include <iostream>
+
+int main(int, char**) {
+   std::cout << "Hello World" << std::endl;
+   return 0;
+}
+```
+
+**Test data:**
+
+*Delete if not required.*
+
+**Sample output:**
+
+*Delete if not required.*
+
+**Reflection:**
+
+*Reflect on what you have learnt from this exercise.*
+
+*Did you make any mistakes?*
+
+*In what way has your knowledge improved?*
+
+**Questions:**
+
+*Is there anything you would like to ask?*
+
+### Q2. Creating a new project
+
+**Question:**
+
+Create a new Empty C++ Console project called Temperature by using the project application wizard.
+Create a new cpp file within the temperature project by right clicking on the Temperature project in the Solution Explorer Window and select Add » Add New Item.
+Write a program to input a Fahrenheit measurement, convert it and output a Celsius value. 
+
+**Solution:**
+
+```c++
+#include <iostream>
+
+int main(int, char**) {
+   std::cout << "Hello World" << std::endl;
+   return 0;
+}
+```
+
+**Test data:**
+
+*Delete if not required.*
+
+**Sample output:**
+
+*Delete if not required.*
+
+**Reflection:**
+
+*Reflect on what you have learnt from this exercise.*
+
+*Did you make any mistakes?*
+
+*In what way has your knowledge improved?*
+
+**Questions:**
+
+*Is there anything you would like to ask?*
+
+
+### Q3. Types
+
+**Question:**
+
+Using the “Hello World” program as a starting point, write a program that prints out the size in bytes of each of the fundamental data types in C++.
+Remember to include both the signed and unsigned versions of each data type.
+
+**Solution:**
+
+```c++
+#include <iostream>
+
+int main(int, char**) {
+   std::cout << "Hello World" << std::endl;
+   return 0;
+}
+```
+
+**Test data:**
+
+*Delete if not required.*
+
+**Sample output:**
+
+*Delete if not required.*
+
+**Reflection:**
+
+*Reflect on what you have learnt from this exercise.*
+
+*Did you make any mistakes?*
+
+*In what way has your knowledge improved?*
+
+**Questions:**
+
+*Is there anything you would like to ask?*
+
+### Q4. Floating point precision
+
+**Question:**
+
+Understanding logic of the precision of floating point numbers within C++
+
+**Solution:**
+
+```c++
+#include <iostream>
+
+int main(int, char**) {
+   std::cout << "Hello World" << std::endl;
+   return 0;
+}
+```
+
+**Test data:**
+
+*Delete if not required.*
+
+**Sample output:**
+
+*Delete if not required.*
+
+**Reflection:**
+
+*Reflect on what you have learnt from this exercise.*
+
+*Did you make any mistakes?*
+
+*In what way has your knowledge improved?*
+
+**Questions:**
+
+*Is there anything you would like to ask?*
+
+### Q5. C#/C++ Iteration Comparison (for loop)
+
+**Question:**
+
+Port the below C# code in to C++ using the provided Main.cpp file.
+
+```c#
+static void Main(string[] args)
+{
+   int factorialNumber = 5;
+   int factorialTotal = 1;
+
+   for(int n = 2; n <= factorialNumber; ++n)
+   {
+      factorialTotal *= n;
+   }
+
+   System.Console.WriteLine(factorialTotal);
+}
+```
+
+**Solution:**
+
+```c++
+#include <iostream>
+
+int main(int, char**) {
+   std::cout << "Hello World" << std::endl;
+   return 0;
+}
+```
+
+**Test data:**
+
+*Delete if not required.*
+
+**Sample output:**
+
+*Delete if not required.*
+
+**Reflection:**
+
+*Reflect on what you have learnt from this exercise.*
+
+*Did you make any mistakes?*
+
+*In what way has your knowledge improved?*
+
+**Questions:**
+
+*Is there anything you would like to ask?*
+
+### Q6. Calculate Average using Iteration (while loop)
+
+**Question:**
+
+Using a while loop (or do-while loop), calculate the average value of values provided by the user from the console (cin). You should calculate the average after the user either enters a negative number or the user enters a non-number value (e.g. a letter).
+
+**Solution:**
+
+```c++
+#include <iostream>
+
+int main(int, char**) {
+   std::cout << "Hello World" << std::endl;
+   return 0;
+}
+```
+
+**Test data:**
+
+*Delete if not required.*
+
+**Sample output:**
+
+*Delete if not required.*
+
+**Reflection:**
+
+*Reflect on what you have learnt from this exercise.*
+
+*Did you make any mistakes?*
+
+*In what way has your knowledge improved?*
+
+**Questions:**
+
+*Is there anything you would like to ask?*
