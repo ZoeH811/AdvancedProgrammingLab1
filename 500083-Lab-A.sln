@@ -9,6 +9,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Iteration", "Iteration\Iter
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Temperature", "Temperature\Temperature.vcxproj", "{F4E6911D-5F8D-49AD-AB9B-79C1FD14187A}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "FloatingPointPrecision", "FloatingPointPrecision\FloatingPointPrecision.vcxproj", "{669F4DCC-7027-4540-9495-FBD46B5E8C53}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -41,6 +43,14 @@ Global
 		{F4E6911D-5F8D-49AD-AB9B-79C1FD14187A}.Release|x64.Build.0 = Release|x64
 		{F4E6911D-5F8D-49AD-AB9B-79C1FD14187A}.Release|x86.ActiveCfg = Release|Win32
 		{F4E6911D-5F8D-49AD-AB9B-79C1FD14187A}.Release|x86.Build.0 = Release|Win32
+		{669F4DCC-7027-4540-9495-FBD46B5E8C53}.Debug|x64.ActiveCfg = Debug|x64
+		{669F4DCC-7027-4540-9495-FBD46B5E8C53}.Debug|x64.Build.0 = Debug|x64
+		{669F4DCC-7027-4540-9495-FBD46B5E8C53}.Debug|x86.ActiveCfg = Debug|Win32
+		{669F4DCC-7027-4540-9495-FBD46B5E8C53}.Debug|x86.Build.0 = Debug|Win32
+		{669F4DCC-7027-4540-9495-FBD46B5E8C53}.Release|x64.ActiveCfg = Release|x64
+		{669F4DCC-7027-4540-9495-FBD46B5E8C53}.Release|x64.Build.0 = Release|x64
+		{669F4DCC-7027-4540-9495-FBD46B5E8C53}.Release|x86.ActiveCfg = Release|Win32
+		{669F4DCC-7027-4540-9495-FBD46B5E8C53}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
