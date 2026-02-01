@@ -6,9 +6,9 @@
 
 **Question:**
 
-Locate the Solution Explorer within Visual Studio and select the HelloWorld project.
+Locate the Solution Explorer within Visual Studio and select the 'HelloWorld' project.
 Right click on this project and select Build. This should compile and link the project.
-Now run the HelloWorld program.
+Now run the 'HelloWorld' program.
 Change between Debug and Release mode. Compile again and rerun the program.
 
 **Solution:**
@@ -22,10 +22,6 @@ int main(int, char**) {
 }
 ```
 
-**Test data:**
-
-*Delete if not required.*
-
 **Sample output:**
 
 *Delete if not required.*
@@ -37,10 +33,6 @@ int main(int, char**) {
 *Did you make any mistakes?*
 
 *In what way has your knowledge improved?*
-
-**Questions:**
-
-*Is there anything you would like to ask?*
 
 ### Q2. Creating a new project
 
@@ -54,16 +46,27 @@ Write a program to input a Fahrenheit measurement, convert it and output a Celsi
 
 ```c++
 #include <iostream>
+using namespace std;
 
-int main(int, char**) {
-   std::cout << "Hello World" << std::endl;
-   return 0;
+int main(int argc, char** argv) {
+
+	float fahrenheit;
+	float celsius;
+	cout << "Enter temperature in Fahrenheit: " << endl;
+	cin >> fahrenheit;
+	celsius = (fahrenheit - 32) * 5 / 9;
+	cout << "Temperature in Celsius: " << celsius << endl;
+
 }
 ```
 
 **Test data:**
 
-*Delete if not required.*
+| Test Fahrenheit  |  Expected Output |  Actual Output |
+|---|---|---|
+| 40  |  4.4444 |   | 
+|  81 |  27.2222 |   |
+|  5 | -15  |   | 
 
 **Sample output:**
 
@@ -71,11 +74,7 @@ int main(int, char**) {
 
 **Reflection:**
 
-*Reflect on what you have learnt from this exercise.*
-
-*Did you make any mistakes?*
-
-*In what way has your knowledge improved?*
+*Reflect on what you have learnt from this exercise. Did you make any mistakes? In what way has your knowledge improved?*
 
 **Questions:**
 
@@ -110,11 +109,7 @@ int main(int, char**) {
 
 **Reflection:**
 
-*Reflect on what you have learnt from this exercise.*
-
-*Did you make any mistakes?*
-
-*In what way has your knowledge improved?*
+*Reflect on what you have learnt from this exercise. Did you make any mistakes? In what way has your knowledge improved?*
 
 **Questions:**
 
@@ -147,11 +142,7 @@ int main(int, char**) {
 
 **Reflection:**
 
-*Reflect on what you have learnt from this exercise.*
-
-*Did you make any mistakes?*
-
-*In what way has your knowledge improved?*
+*Reflect on what you have learnt from this exercise. Did you make any mistakes? In what way has your knowledge improved?*
 
 **Questions:**
 
@@ -199,11 +190,7 @@ int main(int, char**) {
 
 **Reflection:**
 
-*Reflect on what you have learnt from this exercise.*
-
-*Did you make any mistakes?*
-
-*In what way has your knowledge improved?*
+*Reflect on what you have learnt from this exercise. Did you make any mistakes? In what way has your knowledge improved?*
 
 **Questions:**
 
@@ -236,11 +223,7 @@ int main(int, char**) {
 
 **Reflection:**
 
-*Reflect on what you have learnt from this exercise.*
-
-*Did you make any mistakes?*
-
-*In what way has your knowledge improved?*
+*Reflect on what you have learnt from this exercise. Did you make any mistakes? In what way has your knowledge improved?*
 
 **Questions:**
 
