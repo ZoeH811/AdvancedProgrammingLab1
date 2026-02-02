@@ -28,11 +28,9 @@ int main(int, char**) {
 
 **Reflection:**
 
-*Reflect on what you have learnt from this exercise.*
+*Reflect on what you have learnt from this exercise. Did you make any mistakes? In what way has your knowledge improved?*
 
-*Did you make any mistakes?*
-
-*In what way has your knowledge improved?*
+I have learnt that 'Debug' mode is used to help find and fix problems whereas 'Release' mode is used for the delivery of the final version of the program. My knowledge has improved through understandinf how Visual Studio manages different build configurations.
 
 ### Q2. Creating a new project
 
@@ -76,10 +74,7 @@ int main(int argc, char** argv) {
 
 *Reflect on what you have learnt from this exercise. Did you make any mistakes? In what way has your knowledge improved?*
 
-**Questions:**
-
-*Is there anything you would like to ask?*
-
+I have learnt how to use the basic c++ syntax to create a simple program to calculate the temperature in celcius from fahrenheit. My knowledge has improved in using the c++ syntax to make a program.
 
 ### Q3. Types
 
