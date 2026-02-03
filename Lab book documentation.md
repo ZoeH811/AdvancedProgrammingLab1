@@ -207,8 +207,10 @@ int main (int argc, char **argv) {
 
 **Sample output:**
 
+Part A:
 <img width="272" height="107" alt="image" src="https://github.com/user-attachments/assets/af254b0c-df12-4e60-87c0-26d662d893ad" />
 
+Part B:
 <img width="644" height="130" alt="image" src="https://github.com/user-attachments/assets/5ad422d1-1e72-4d11-98e4-e491b7e71e1d" />
 
 **Reflection:**
@@ -242,28 +244,28 @@ static void Main(string[] args)
 
 ```c++
 #include <iostream>
+using namespace std;
 
-int main(int, char**) {
-   std::cout << "Hello World" << std::endl;
-   return 0;
+int main(int argc, char* argv[])
+{
+	int factorialNum = 5;
+	int factorialTotal = 1;
+
+	for (int i = 1; i <= factorialNum; ++i)
+	{
+		factorialTotal *= i;
+	}
+	cout << "Factorial of " << factorialNum << " is " << factorialTotal << endl;
 }
 ```
 
-**Test data:**
-
-*Delete if not required.*
-
 **Sample output:**
 
-*Delete if not required.*
+<img width="307" height="93" alt="image" src="https://github.com/user-attachments/assets/20889ec6-952d-48f8-886e-807613a27e63" />
 
 **Reflection:**
 
-*Reflect on what you have learnt from this exercise. Did you make any mistakes? In what way has your knowledge improved?*
-
-**Questions:**
-
-*Is there anything you would like to ask?*
+Through the completion of this exercise I have learnt the simple yet notible syntax and semantic differences between C# and C++ code such as 'Console.WriteLine' vs 'cout'.
 
 ### Q6. Calculate Average using Iteration (while loop)
 
@@ -284,15 +286,15 @@ int main(int, char**) {
 
 **Test data:**
 
-| Test Values  |  Expected Output |  Actual Output |
+| Test Values  |  Expected Output |  Actual Output | Pass/Fail |
 |---|---|---|
-| 1, 2, 3, -4  |  X |   | 
-|  1, 2, 3, a |  X |   |
-|  5, 10, 5, 20, -5 | X  |   | 
+| 1, 2, 3, -4  |  2 | 2  | Pass |
+|  1, 2, 3, a |  2 |  2 | Pass |
+|  5, 5, 5, -5 | 3  |  3 | Pass | 
 
 **Sample output:**
 
-*Delete if not required.*
+<img width="718" height="178" alt="image" src="https://github.com/user-attachments/assets/b0413e41-1fba-4660-841f-aeb0550e7c37" />
 
 **Reflection:**
 
@@ -300,4 +302,4 @@ int main(int, char**) {
 
 **Questions:**
 
-*Is there anything you would like to ask?*
+Through the completion of this exercise I learnt how to use loops and if statements using the C++ syntax. I used a 'while' loop to repeatedly read the users input and if statements to control the iterations based on conditions. The 'while' loop was exited through making use of the 'break'. Furthermore this task highlighted the importance of controlling program flow with validating the user input.
