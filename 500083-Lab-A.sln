@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.14.36705.20 d17.14
+VisualStudioVersion = 17.14.36705.20
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Hello World", "Hello World\Hello World.vcxproj", "{6DF25D9C-FB55-4FDA-A046-F4AF31858218}"
 EndProject
@@ -12,6 +12,8 @@ EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "FloatingPointPrecision", "FloatingPointPrecision\FloatingPointPrecision.vcxproj", "{669F4DCC-7027-4540-9495-FBD46B5E8C53}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "AverageIteration", "AverageIteration\AverageIteration.vcxproj", "{D49EDCEE-2359-4DF0-8267-5C46BF715B28}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Fundamental Types", "Fundamental Types\Fundamental Types.vcxproj", "{AB069BFE-422D-49F1-8637-DF698B9BF61A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -61,6 +63,14 @@ Global
 		{D49EDCEE-2359-4DF0-8267-5C46BF715B28}.Release|x64.Build.0 = Release|x64
 		{D49EDCEE-2359-4DF0-8267-5C46BF715B28}.Release|x86.ActiveCfg = Release|Win32
 		{D49EDCEE-2359-4DF0-8267-5C46BF715B28}.Release|x86.Build.0 = Release|Win32
+		{AB069BFE-422D-49F1-8637-DF698B9BF61A}.Debug|x64.ActiveCfg = Debug|x64
+		{AB069BFE-422D-49F1-8637-DF698B9BF61A}.Debug|x64.Build.0 = Debug|x64
+		{AB069BFE-422D-49F1-8637-DF698B9BF61A}.Debug|x86.ActiveCfg = Debug|Win32
+		{AB069BFE-422D-49F1-8637-DF698B9BF61A}.Debug|x86.Build.0 = Debug|Win32
+		{AB069BFE-422D-49F1-8637-DF698B9BF61A}.Release|x64.ActiveCfg = Release|x64
+		{AB069BFE-422D-49F1-8637-DF698B9BF61A}.Release|x64.Build.0 = Release|x64
+		{AB069BFE-422D-49F1-8637-DF698B9BF61A}.Release|x86.ActiveCfg = Release|Win32
+		{AB069BFE-422D-49F1-8637-DF698B9BF61A}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

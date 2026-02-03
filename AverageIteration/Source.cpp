@@ -7,12 +7,23 @@ int main (int argc, char **argv) {
 	double sum = 0.0;
 	double value;
 
-	while (cin >> value) {
+	cout << "Enter values to be averaged (non-numeric or letter to end): " << endl;
+
+	while (true)
+	{
+		if (!(cin >> value)) {
+			break;
+		}
+		if (value < 0) {
+			cout << "Negative value encountered, stopping input." << endl;
+			break;
+		}
 		sum += value;
 		++numProcessed;
 	}
 	cin.clear();
-	if (numProcessed > 0) {
+	if (numProcessed > 0)
+	{
 		double average = sum / numProcessed;
 		cout << "Average :" << average << endl;
 	} else {
