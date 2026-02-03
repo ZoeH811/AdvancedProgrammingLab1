@@ -30,7 +30,7 @@ int main(int, char**) {
 
 *Reflect on what you have learnt from this exercise. Did you make any mistakes? In what way has your knowledge improved?*
 
-I have learnt that 'Debug' mode is used to help find and fix problems whereas 'Release' mode is used for the delivery of the final version of the program. My knowledge has improved through understandinf how Visual Studio manages different build configurations.
+I have learnt that the 'Debug' mode is used to help find and fix problems whereas the 'Release' mode is used for the delivery of the final version of the program. My knowledge has improved through understanding how Visual Studio manages different build configurations.
 
 ### Q2. Creating a new project
 
@@ -74,7 +74,7 @@ int main(int argc, char** argv) {
 
 *Reflect on what you have learnt from this exercise. Did you make any mistakes? In what way has your knowledge improved?*
 
-I have learnt how to use the basic c++ syntax to create a simple program to calculate the temperature in celcius from fahrenheit. My knowledge has improved in using the c++ syntax to make a program.
+I have learnt how to use basic c++ to create a simple program to calculate the temperature in celcius from fahrenheit.
 
 ### Q3. Types
 
@@ -102,7 +102,7 @@ int main(int, char**) {
 
 *Reflect on what you have learnt from this exercise. Did you make any mistakes? In what way has your knowledge improved?*
 
-I have learnt how to use the sizeof operator to determine the size of different fundamental data types. Furthermore, my knowledge has improved through understanding the differences between signed and unsigned data types.
+I have learnt how to use the sizeof operator to determine the size of different fundamental data types. Furthermore, my knowledge has improved through understanding the differences between signed and unsigned data types and additionally the size of the fundamental data types in bytes.
 
 ### Q4. Floating point precision
 
@@ -128,6 +128,8 @@ int main(int, char**) {
 **Reflection:**
 
 *Reflect on what you have learnt from this exercise. Did you make any mistakes? In what way has your knowledge improved?*
+
+Rounding errors can occur and therefore when using floating point values within mathmatical equations a resulting value can not be said to be mathmatically equal.
 
 **Questions:**
 
