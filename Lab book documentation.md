@@ -94,10 +94,6 @@ int main(int, char**) {
 }
 ```
 
-**Test data:**
-
-*Delete if not required.*
-
 **Sample output:**
 
 *Delete if not required.*
@@ -106,9 +102,7 @@ int main(int, char**) {
 
 *Reflect on what you have learnt from this exercise. Did you make any mistakes? In what way has your knowledge improved?*
 
-**Questions:**
-
-*Is there anything you would like to ask?*
+I have learnt how to use the sizeof operator to determine the size of different fundamental data types. Furthermore, my knowledge has improved through understanding the differences between signed and unsigned data types.
 
 ### Q4. Floating point precision
 
@@ -126,10 +120,6 @@ int main(int, char**) {
    return 0;
 }
 ```
-
-**Test data:**
-
-*Delete if not required.*
 
 **Sample output:**
 
@@ -210,7 +200,11 @@ int main(int, char**) {
 
 **Test data:**
 
-*Delete if not required.*
+| Test Values  |  Expected Output |  Actual Output |
+|---|---|---|
+| 1, 2, 3, -4  |  X |   | 
+|  1, 2, 3, a |  X |   |
+|  5, 10, 5, 20, -5 | X  |   | 
 
 **Sample output:**
 
