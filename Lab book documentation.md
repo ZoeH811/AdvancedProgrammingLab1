@@ -30,15 +30,23 @@ int main(int, char**) {
 
 *Reflect on what you have learnt from this exercise. Did you make any mistakes? In what way has your knowledge improved?*
 
-Through the completion of this exercise I have learnt that the 'Debug' mode is used to help find and fix problems without the use of optimisations whereas the 'Release' mode is used for the delivery of the final version of the program with optimisations turned on. It allowes for improved performance in the final product although the output should be the same. My knowledge overall has improved through understanding how Visual Studio manages different build configurations.
+Through the completion of this exercise I have learnt that the 'Debug' mode is used to help find and fix problems without the use of optimisations whereas the 'Release' mode is used for the delivery of the final version of the program with optimisations turned on. It allows for improved performance in the final product although the output should ultimately be the same. My knowledge overall has improved through understanding how Visual Studio manages different build configurations.
 
 ### Q2. Creating a new project
 
 **Question:**
 
-Create a new Empty C++ Console project called Temperature by using the project application wizard.
+Create a new Empty C++ Console project called Temperature by using the project application wizard. This is done by right clicking on the 500083-Lab-A solution in the Solution Explorer Window and selecting Add » New Project.
+
+NB: Be careful to select a C++, Empty Project
+
 Create a new cpp file within the temperature project by right clicking on the Temperature project in the Solution Explorer Window and select Add » Add New Item.
-Write a program to input a Fahrenheit measurement, convert it and output a Celsius value. 
+
+Write a program to input a Fahrenheit measurement, convert it and output a Celsius value. The conversion formula is celsius = 5/9 * (fahrenheit-32)
+
+NB: You may want to select the Temperature project as the default project; to do this right click on the Temperature project and select Set as Startup Project.
+
+Also what happens if you dividing two integers?
 
 **Solution:**
 
