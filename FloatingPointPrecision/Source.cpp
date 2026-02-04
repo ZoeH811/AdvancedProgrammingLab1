@@ -20,7 +20,7 @@ int main (int argc, char **argv) {
 
 	const double epsilon = 1e-9;
 	
-	if (abs(y - z) < epsilon)
+	if (fabs(y - z) < epsilon)
 		cout << "y and z are identical" << endl;
 
 	double result = x / y;
