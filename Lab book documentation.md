@@ -285,17 +285,43 @@ Using a while loop (or do-while loop), calculate the average value of values pro
 
 ```c++
 #include <iostream>
+using namespace std;
 
-int main(int, char**) {
-   std::cout << "Hello World" << std::endl;
-   return 0;
+int main (int argc, char **argv) {
+
+	int numProcessed = 0;
+	double sum = 0.0;
+	double value;
+
+	cout << "Enter values to be averaged (non-numeric or letter to end): " << endl;
+
+	while (true)
+	{
+		if (!(cin >> value)) {
+			break;
+		}
+		if (value < 0) {
+			cout << "Negative value encountered, stopping input." << endl;
+			break;
+		}
+		sum += value;
+		++numProcessed;
+	}
+	cin.clear();
+	if (numProcessed > 0)
+	{
+		double average = sum / numProcessed;
+		cout << "Average :" << average << endl;
+	} else {
+		cout << "No values were processed." << endl;
+	}
 }
 ```
 
 **Test data:**
 
 | Test Values  |  Expected Output |  Actual Output | Pass/Fail |
-|---|---|---|
+|---|---|---| --- |
 | 1, 2, 3, -4  |  2 | 2  | Pass |
 |  1, 2, 3, a |  2 |  2 | Pass |
 |  5, 5, 5, -5 | 3  |  3 | Pass | 
